@@ -1,0 +1,116 @@
+{
+  "profile": {
+    "username": "my-dooom",
+    "name": "Mikołaj Szczęsny",
+    "tagline": "Audio DSP & systems engineer",
+    "bio": "I build things that make sound — real-time audio engines, signal-analysis tools, and VST plugins — mostly in C++ and Rust. Currently at Intel, based in Gdańsk, Poland.",
+    "location": "Gdańsk, Poland",
+    "links": {
+      "GitHub": "https://github.com/my-dooom"
+    }
+  },
+  "featured": [
+    {
+      "repo": "DeciBeliever",
+      "blurb": "Modular C++17 toolkit for verifying audio integrity and computing quality metrics — SNR, MSE, spectral distance, THD, RT60 — on WAV files and live PortAudio streams. Catch2-tested, JSON reporting.",
+      "tags": [
+        "C++17",
+        "DSP",
+        "CMake",
+        "PortAudio",
+        "Catch2"
+      ]
+    },
+    {
+      "repo": "ParametricEQ",
+      "blurb": "Parametric equalizer VST plugin built with JUCE, written as an engineering thesis project. Real-time biquad filtering with a custom GUI.",
+      "tags": [
+        "C++",
+        "JUCE",
+        "VST",
+        "Audio plugin"
+      ]
+    },
+    {
+      "repo": "audiomode",
+      "blurb": "Lightweight C++ audio engine library designed as a foundation for real-time audio applications.",
+      "tags": [
+        "C++",
+        "Real-time audio",
+        "Library"
+      ]
+    },
+    {
+      "repo": "audiotest",
+      "blurb": "Measures the frequency-response curve of an audio path by playing a chirp through a chosen output and analyzing the captured input.",
+      "tags": [
+        "Python",
+        "Measurement",
+        "Signal analysis"
+      ]
+    },
+    {
+      "repo": "alsa-brigde",
+      "blurb": "Minimal C++ example of real-time audio pass-through on a Raspberry Pi using ALSA — a starting point for embedded audio work.",
+      "tags": [
+        "C++",
+        "ALSA",
+        "Raspberry Pi",
+        "Embedded"
+      ]
+    },
+    {
+      "repo": "dub-stepbro",
+      "blurb": "LLM-powered dubstep pattern generator on top of Strudel: sample drums, sidechain ducking, halftime feel, live in-browser playback, and a VS Code Copilot skill.",
+      "tags": [
+        "JavaScript",
+        "Strudel",
+        "LLM",
+        "Live coding"
+      ]
+    },
+    {
+      "repo": "rrep",
+      "blurb": "A generalized regular-expression printing tool (grep-like) written in Rust as a language-learning project.",
+      "tags": [
+        "Rust",
+        "CLI"
+      ]
+    },
+    {
+      "repo": "geogetter",
+      "blurb": "Python library and CLI for fetching coordinates, address details, and timezone data for any location. Published on PyPI.",
+      "tags": [
+        "Python",
+        "PyPI",
+        "CLI",
+        "Geo APIs"
+      ]
+    },
+    {
+      "repo": "mischess",
+      "blurb": "Experiments integrating the Stockfish engine from C to get better at chess. Work in progress.",
+      "tags": [
+        "C",
+        "Stockfish",
+        "Chess"
+      ]
+    },
+    {
+      "repo": "spectrumAnalizer",
+      "blurb": "Simple Python spectrum analyzer for mono and stereo audio files.",
+      "tags": [
+        "Python",
+        "FFT",
+        "Audio"
+      ]
+    }
+  ],
+  "hidden": [
+    "hello-world-temp",
+    "phoenix-rtos-project",
+    "freeverb",
+    "beat-link-cc",
+    "my-neovim-config"
+  ]
+}

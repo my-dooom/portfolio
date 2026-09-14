@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mikołaj Szczęsny — Open Source</title>
+  <meta name="description" content="Open source projects by Mikołaj Szczęsny (my-dooom): audio DSP, real-time audio engines, VST plugins, Rust and Python tools.">
+  <meta property="og:title" content="Mikołaj Szczęsny — Open Source">
+  <meta property="og:description" content="Audio DSP &amp; systems engineering projects in C++, Rust and Python.">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/77160449?v=4">
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/77160449?v=4">
+  <link rel="preconnect" href="https://api.github.com">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#projects">Skip to projects</a>
+
+  <header class="hero">
+    <div class="wrap hero-inner">
+      <img class="avatar" id="avatar" src="https://avatars.githubusercontent.com/u/77160449?v=4" alt="" width="96" height="96">
+      <div>
+        <p class="eyebrow" id="tagline">Audio DSP &amp; systems engineer</p>
+        <h1 id="name">Mikołaj Szczęsny</h1>
+        <p class="bio" id="bio"></p>
+        <p class="meta">
+          <span id="location"></span>
+          <span id="links"></span>
+        </p>
+      </div>
+    </div>
+    <div class="wrap stats" id="stats" aria-live="polite"></div>
+  </header>
+
+  <main class="wrap">
+    <section id="projects" aria-labelledby="featured-h">
+      <div class="section-head">
+        <h2 id="featured-h">Featured projects</h2>
+        <p class="muted">Hand-picked. Stars, languages and activity are pulled live from GitHub.</p>
+      </div>
+      <div class="grid" id="featured"></div>
+    </section>
+
+    <section id="all" aria-labelledby="all-h">
+      <div class="section-head">
+        <h2 id="all-h">Everything else</h2>
+        <div class="controls">
+          <label class="sr-only" for="filter">Filter by language</label>
+          <select id="filter"><option value="">All languages</option></select>
+          <label class="sr-only" for="search">Search projects</label>
+          <input id="search" type="search" placeholder="Search…" autocomplete="off">
+        </div>
+      </div>
+      <div class="grid compact" id="others"></div>
+      <p class="muted" id="empty" hidden>Nothing matches.</p>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <p class="muted" id="status">Loading from GitHub…</p>
+    <p class="muted">Built with plain HTML, CSS and JS. <a href="https://github.com/my-dooom/portfolio">Source</a></p>
+  </footer>
+
+  <template id="card-tpl">
+    <article class="card">
+      <h3><a class="card-link" target="_blank" rel="noopener"></a></h3>
+      <p class="desc"></p>
+      <ul class="tags"></ul>
+      <p class="card-meta">
+        <span class="lang"><i class="dot"></i><span class="lang-name"></span></span>
+        <span class="stars" title="Stars">★ <span class="star-count"></span></span>
+        <span class="updated"></span>
+      </p>
+    </article>
+  </template>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
